@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: auto auto;
+    padding: 1px;
+}
+#smart-button-container{
+    padding-top:4rem;
+    background-color: red;
+
+}
+#smart-button-container > div > label {
+    margin-right: 1.8em;
+    width:25%;
+    font-size: larger;
+    text-transform: uppercase;
+    color: yellow;
+    /* background-color: aqua; */
+    text-align:right;
+    ;
+    ;
+   
+}
+.heading {
+    text-transform:capitalize;
+    margin: auto auto;
+    background-color: red;
+    text-align: center;
+    color: white ;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.label {
+    /* background-color: yellow; */
+    line-height: 2.5em;
+    font-size: 18px;
+    margin: auto auto;
+}
+.label > input {
+    width:65%;
+    margin: auto auto;
+    max-width: 550px;
+}
+@media (max-width:748px) {
+    .label > input {
+        width:90%;
+        margin: auto auto;
+        text-align: center;
+        margin-left:1.5em;
+    }
+    #smart-button-container > div > label {
+        width: 90%;
+        font-size: 30px;
+        text-transform: uppercase;
+        margin: auto auto;
+        text-align: center;
+       
+    }
+    .label {
+        /* background-color: yellow; */
+        justify-content: center;
+        line-height: 2.5em;
+        font-size: 18px;
+        margin: auto auto;
+    }
+    .heading {
+        font-size: 40px;
+        word-spacing: 2px;
+    }
+}
+
+
+@media (min-width:864px) {
+    #smart-button-container > div > label {
+        margin-left: 2vw;
+    }
+}
+
+@media (min-width:1300px) {
+    #smart-button-container > div > label {
+        margin-left: 2.8vw;
+    }
+}
+
+@media (min-width:1369px) {
+    #smart-button-container > div > label {
+        margin-left: 3.4vw;
+    }
+}
+
+@media (min-width:1569px) {
+    #smart-button-container > div > label {
+        margin-left: 8vw;
+    }
+}
